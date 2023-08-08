@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/contactMe.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="leftNav">
+        <ul>
+          <li>
+            <img src="assets/images/Asset 2.png" alt="" />
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">My Project</a></li>
+        </ul>
+      </div>
+      <div class="rightNav">
+        <a href="contactMe.html">Contact Me</a>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <form action="">
+      <h2>Get In Touch</h2>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" class="name" required placeholder=" Name..." />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" class="email" id="email" required placeholder=" Email..." />
+      </div>
+      <div>
+        <label for="phone">Your Phone</label>
+        <input type="tel" class="phone" id="phone" required placeholder=" Your phone..." />
+      </div>
+      <div>
+        <label for="subject">Subject</label>
+        <select id="subject" class="subject" required>
+          <option value="" hidden>Choose...</option>
+          <option>Frontend Developer</option>
+          <option>Backend Developer</option>
+          <option>Fullstack Developer</option>
+        </select>
+      </div>
+      <div>
+        <label for="message" required>Message</label>
+        <textarea id="message" cols="30" rows="10" class="message" placeholder=" Message..."></textarea>
+      </div>
+      <div class="btnContainer">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
