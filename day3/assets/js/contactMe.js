@@ -20,6 +20,6 @@ function sendMail() {
   const emailReceiver = "jerry17hutariputra@gmail.com";
 
   let kirim = document.createElement("a");
-  kirim.href = `mailto:${emailReceiver}?subject=${subject}&body=halo nama saya ${name},\n silahkan hubungi saya dengan nomor : ${phone} atau ke Email: ${email}, dan ${message}`;
+  kirim.href = `mailto:${emailReceiver}?subject=${subject}&body=halo nama saya ${name},\n silahkan hubungi saya dengan nomor : ${phone} atau ke Email: ${email} , dan ${message}`;
   kirim.click();
 }
