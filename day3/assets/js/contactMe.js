@@ -6,15 +6,15 @@ function sendMail() {
   let message = document.getElementById("message").value;
 
   if (name == "") {
-    alert("fill your name!");
+    return alert("fill your name!");
   } else if (email == "") {
-    alert("fill your email!");
+    return alert("fill your email!");
   } else if (phone == "") {
-    alert("fill your phone!");
+    return alert("fill your phone!");
   } else if (subject == "") {
-    alert("fill your subject!");
+    return alert("fill your subject!");
   } else if (message == "") {
-    alert("fill your message!");
+    return alert("fill your message!");
   }
 
   const emailReceiver = "jerry17hutariputra@gmail.com";
